@@ -1,4 +1,4 @@
- Lab 8 – Data Visualization using Python Libraries
+# Lab 8 – Data Visualization using Python Libraries
 
 **Name:** Girish Raja Thiyagrajan  
 **Course:** CYSE 6200
@@ -22,7 +22,7 @@ This lab explores the **Wine Quality (Red)** dataset from the UC Irvine Machine 
 | File / Folder | Description |
 |---|---|
 | `Lab8_Data_Visualization.ipynb` | Google Colab notebook with all code, charts and observations |
-| `lab_8_A.png` – `LAB_8_L.png` | Output charts captured from the notebook |
+| `chart01.png` – `chart12.png` | Output charts captured from the notebook |
 | `README.md` | Project overview (this file) |
 
 ## 📊 Dataset
@@ -63,31 +63,31 @@ Three filtered views of the data were created for the visualizations:
 
 **1. Histogram – Distribution of Alcohol Content**
 
-![Alcohol histogram](lab_8_A.png)
+![Alcohol histogram](chart01.png)
 
 Most wines contain between 9% and 11% alcohol, with the tallest bar around 9.5%. The distribution is right-skewed, with only a few wines above 13%.
 
 **2. Bar Chart – Number of Wines per Quality Score**
 
-![Quality bar chart](Lab_8_b.png)
+![Quality bar chart](chart02.png)
 
 The majority of wines are rated 5 or 6. Very few wines are rated 3, 4 or 8, so the dataset is imbalanced.
 
 **3. Scatter Plot – Alcohol vs. Volatile Acidity**
 
-![Alcohol vs volatile acidity](lab_8_c.png)
+![Alcohol vs volatile acidity](chart03.png)
 
 Higher-quality wines (yellow/green points) tend to appear at higher alcohol levels and lower volatile acidity, while lower-quality wines (purple/blue) cluster at lower alcohol.
 
 **4. Pie Chart – Share of Each Quality Category**
 
-![Quality category pie chart](lab_8_d.png)
+![Quality category pie chart](chart04.png)
 
 46.5% of wines are Low quality, 39.9% are Medium and only 13.6% are High quality.
 
 **5. Line Plot – Average Alcohol by Quality Score**
 
-![Average alcohol line plot](lab_8_e.png)
+![Average alcohol line plot](chart05.png)
 
 Average alcohol stays around 10% for scores 3–5, then rises steadily to about 12% for wines rated 8.
 
@@ -95,43 +95,43 @@ Average alcohol stays around 10% for scores 3–5, then rises steadily to about 
 
 **6. Count Plot – Wines by Quality Category**
 
-![Quality category count plot](lab_8_f.png)
+![Quality category count plot](chart06.png)
 
 Low-quality wines are the largest group (over 700), followed by Medium (about 640) and High (about 220).
 
 **7. Box Plot – Alcohol Content by Quality Score**
 
-![Alcohol box plot](lab_8_g.png)
+![Alcohol box plot](chart07.png)
 
 The median alcohol level is clearly higher for wines rated 7 and 8. Score 5 has many high-alcohol outliers.
 
 **8. Violin Plot – Volatile Acidity by Quality Category**
 
-![Volatile acidity violin plot](lab_8_h.png)
+![Volatile acidity violin plot](chart08.png)
 
 Volatile acidity decreases from Low to High quality. Low-quality wines also have a much wider spread, reaching above 1.5 g/L.
 
 **9. Regression Plot – Alcohol vs. Quality with Trend Line**
 
-![Alcohol vs quality regression](lab_8_I.png)
+![Alcohol vs quality regression](chart09.png)
 
 The upward trend line confirms a positive relationship between alcohol content and quality score.
 
 **10. Histogram with KDE – Sulphates: All Wines vs. High-Quality Wines**
 
-![Sulphates comparison](LAB_8_J.png)
+![Sulphates comparison](chart10.png)
 
 High-quality wines peak at around 0.75 g/L of sulphates, compared to about 0.6 g/L for all wines, so better wines tend to have slightly more sulphates.
 
 **11. Pair Plot – Key Features by Quality Category**
 
-![Pair plot](LAB_8_K.png)
+![Pair plot](chart11.png)
 
 The pair plot compares alcohol, volatile acidity, sulphates and citric acid at once. High-quality wines (green) separate most clearly on alcohol and volatile acidity.
 
 **12. Scatter Plot (Filtered) – High-Alcohol Wines: Citric Acid vs. Volatile Acidity**
 
-![High-alcohol scatter plot](LAB_8_L.png)
+![High-alcohol scatter plot](chart12.png)
 
 Among high-alcohol wines, volatile acidity drops as citric acid increases. High-quality wines cluster at low volatile acidity and moderate-to-high citric acid.
 
